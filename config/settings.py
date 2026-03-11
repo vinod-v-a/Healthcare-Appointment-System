@@ -37,10 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.users',
     'rest_framework',
     'rest_framework_simplejwt.token_blacklist',
-    # 'apps.doctors',
+    'drf_yasg',
+    'apps.users',
+    'apps.doctors',
 ]
 
 MIDDLEWARE = [
